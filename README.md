@@ -1,6 +1,6 @@
 Задание калькулятор.
 surge.sh : http://calculator2342.surge.sh/
-Сайт на netify.com ссылка: https://unique-queijadas-aa196f.netlify.app/
+Сайт на netify.com ссылка: https://celebrated-heliotrope-11282f.netlify.app
 
 Описание.
 У калькулятора есть следующие операции: сложение, вычитание, умножение, деление, извленение корня, возведение в степень, вычисление процента от числа.
