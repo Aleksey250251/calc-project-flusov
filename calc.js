@@ -5,12 +5,12 @@ if (window.matchMedia("(max-width: 150px)").matches) {
     buttonsContainer.innerHTML = `
     <div class="btn bg-grey ac" id="ac">C</div>
     <div class="btn bg-grey dot" id="dot">.</div>
-    <div class="btn bg-orange plus" id="plus">+</div>
-    <div class="btn bg-orange minus" id="minus">-</div>
-    <div class="btn bg-orange multiply" id="multiply">*</div>
-    <div class="btn bg-orange division" id="division">/</div>
-    <div class="btn bg-orange degree" id="degree">^</div>
-    <div class="btn bg-orange sqrt" id="sqrt">√</div>
+    <div class="btn bg-orange plus error" id="plus">+</div>
+    <div class="btn bg-orange minus error" id="minus">-</div>
+    <div class="btn bg-orange multiply error" id="multiply">*</div>
+    <div class="btn bg-orange division error" id="division">/</div>
+    <div class="btn bg-orange degree error" id="degree">^</div>
+    <div class="btn bg-orange sqrt error" id="sqrt">√</div>
     <div class="btn bg-grey one" id="one">1</div>
     <div class="btn bg-grey two" id="two">2</div>
     <div class="btn bg-grey three" id="three">3</div>
@@ -21,19 +21,19 @@ if (window.matchMedia("(max-width: 150px)").matches) {
     <div class="btn bg-grey eignt" id="eight">8</div>
     <div class="btn bg-grey nine" id="nine">9</div>
     <div class="btn bg-grey zero" id="zero">0</div>
-    <div class="btn bg-orange percent" id="percent">%</div>
-    <div class="btn bg-red equal" id="equal">=</div>
+    <div class="btn bg-orange percent error" id="percent">%</div>
+    <div class="btn bg-red equal error" id="equal">=</div>
     `
   } else if (window.matchMedia("(min-width: 150px) and (max-width: 215px)").matches) {
     buttonsContainer.innerHTML = `
     <div class="btn bg-grey ac" id="ac">C</div>
     <div class="btn bg-grey dot" id="dot">.</div>
-    <div class="btn bg-orange plus" id="plus">+</div>
-    <div class="btn bg-orange minus" id="minus">-</div>
-    <div class="btn bg-orange multiply" id="multiply">*</div>
-    <div class="btn bg-orange division" id="division">/</div>
-    <div class="btn bg-orange degree" id="degree">^</div>
-    <div class="btn bg-orange sqrt" id="sqrt">√</div>
+    <div class="btn bg-orange plus error" id="plus">+</div>
+    <div class="btn bg-orange minus error" id="minus">-</div>
+    <div class="btn bg-orange multiply error" id="multiply">*</div>
+    <div class="btn bg-orange division error" id="division">/</div>
+    <div class="btn bg-orange degree error" id="degree">^</div>
+    <div class="btn bg-orange sqrt error" id="sqrt">√</div>
     <div class="btn bg-grey one" id="one">1</div>
     <div class="btn bg-grey two" id="two">2</div>
     <div class="btn bg-grey three" id="three">3</div>
@@ -44,20 +44,20 @@ if (window.matchMedia("(max-width: 150px)").matches) {
     <div class="btn bg-grey eignt" id="eight">8</div>
     <div class="btn bg-grey nine" id="nine">9</div>
     <div class="btn bg-grey zero" id="zero">0</div>
-    <div class="btn bg-orange percent" id="percent">%</div>
-    <div class="btn bg-red equal" id="equal">=</div>
+    <div class="btn bg-orange percent error" id="percent">%</div>
+    <div class="btn bg-red equal error" id="equal">=</div>
     `
 } else if (window.matchMedia("(min-width: 216px) and (max-width: 290px)").matches) {
     buttonsContainer.innerHTML = `
     <div class="btn bg-grey ac" id="ac">C</div>
     <div class="btn bg-grey dot" id="dot">.</div>
-    <div class="btn bg-orange percent" id="percent">%</div>
-    <div class="btn bg-orange plus" id="plus">+</div>
-    <div class="btn bg-orange minus" id="minus">-</div>
-    <div class="btn bg-orange degree" id="degree">^</div>
-    <div class="btn bg-orange multiply" id="multiply">*</div>
-    <div class="btn bg-orange division" id="division">/</div>
-    <div class="btn bg-orange sqrt" id="sqrt">√</div>
+    <div class="btn bg-orange percent error" id="percent">%</div>
+    <div class="btn bg-orange plus error" id="plus">+</div>
+    <div class="btn bg-orange minus error" id="minus">-</div>
+    <div class="btn bg-orange degree error" id="degree">^</div>
+    <div class="btn bg-orange multiply error" id="multiply">*</div>
+    <div class="btn bg-orange division error" id="division">/</div>
+    <div class="btn bg-orange sqrt error" id="sqrt">√</div>
     <div class="btn bg-grey one" id="one">1</div>
     <div class="btn bg-grey two" id="two">2</div>
     <div class="btn bg-grey three" id="three">3</div>
@@ -68,61 +68,61 @@ if (window.matchMedia("(max-width: 150px)").matches) {
     <div class="btn bg-grey eignt" id="eight">8</div>
     <div class="btn bg-grey nine" id="nine">9</div>
     <div class="btn bg-grey zero" id="zero">0</div>
-    <div class="btn bg-red equal" id="equal">=</div>
+    <div class="btn bg-red equal error" id="equal">=</div>
     `
 } else if (window.matchMedia("(min-width: 291px) and (max-width: 480px)").matches) {
     buttonsContainer.innerHTML = `
     <div class="btn bg-grey ac" id="ac">C</div>
     <div class="btn bg-grey dot" id="dot">.</div>
-    <div class="btn bg-orange percent" id="percent">%</div>
-    <div class="btn bg-orange plus" id="plus">+</div>
+    <div class="btn bg-orange percent error" id="percent">%</div>
+    <div class="btn bg-orange plus error" id="plus">+</div>
 
     <div class="btn bg-grey one" id="one">1</div>
     <div class="btn bg-grey two" id="two">2</div>
     <div class="btn bg-grey three" id="three">3</div>
-    <div class="btn bg-orange minus" id="minus">-</div>
+    <div class="btn bg-orange minus error" id="minus">-</div>
     
 
     <div class="btn bg-grey four" id="four">4</div>
     <div class="btn bg-grey five" id="five">5</div>
     <div class="btn bg-grey six" id="six">6</div>
-    <div class="btn bg-orange multiply" id="multiply">*</div>
+    <div class="btn bg-orange multiply error" id="multiply">*</div>
 
     <div class="btn bg-grey seven" id="seven">7</div>
     <div class="btn bg-grey eignt" id="eight">8</div>
     <div class="btn bg-grey nine" id="nine">9</div>
-    <div class="btn bg-orange division" id="division">/</div>
+    <div class="btn bg-orange division error" id="division">/</div>
 
-    <div class="btn bg-orange degree" id="degree">^</div>
-    <div class="btn bg-orange sqrt" id="sqrt">√</div>
+    <div class="btn bg-orange degree error" id="degree">^</div>
+    <div class="btn bg-orange sqrt error" id="sqrt">√</div>
     <div class="btn bg-grey zero" id="zero">0</div>
-    <div class="btn bg-red equal" id="equal">=</div>
+    <div class="btn bg-red equal error" id="equal">=</div>
     `
 } else if (window.matchMedia("(min-width: 481px)").matches) {
     buttonsContainer.innerHTML = `
                     <div class="btn bg-grey ac" id="ac">C</div>
                     <div class="btn bg-grey dot" id="dot">.</div>
-                    <div class="btn bg-orange percent" id="percent">%</div>
-                    <div class="btn bg-orange plus" id="plus">+</div>
-                    <div class="btn bg-orange minus" id="minus">-</div>
+                    <div class="btn bg-orange percen error" id="percent">%</div>
+                    <div class="btn bg-orange plus error" id="plus">+</div>
+                    <div class="btn bg-orange minus error" id="minus">-</div>
 
                     <div class="btn bg-grey one" id="one">1</div>
                     <div class="btn bg-grey two" id="two">2</div>
                     <div class="btn bg-grey three" id="three">3</div>
-                    <div class="btn bg-orange multiply" id="multiply">*</div>
-                    <div class="btn bg-orange division" id="division">/</div>
+                    <div class="btn bg-orange multiply error" id="multiply">*</div>
+                    <div class="btn bg-orange division error" id="division">/</div>
 
                     <div class="btn bg-grey four" id="four">4</div>
                     <div class="btn bg-grey five" id="five">5</div>
                     <div class="btn bg-grey six" id="six">6</div>
-                    <div class="btn bg-orange degree" id="degree">^</div>
-                    <div class="btn bg-orange sqrt" id="sqrt">√</div>
+                    <div class="btn bg-orange degree error" id="degree">^</div>
+                    <div class="btn bg-orange sqrt error" id="sqrt">√</div>
 
                     <div class="btn bg-grey seven" id="seven">7</div>
                     <div class="btn bg-grey eignt" id="eight">8</div>
                     <div class="btn bg-grey nine" id="nine">9</div>
                     <div class="btn bg-grey zero" id="zero">0</div>
-                    <div class="btn bg-red equal" id="equal">=</div>
+                    <div class="btn bg-red equal error" id="equal">=</div>
     `
 }
 }
@@ -378,42 +378,50 @@ let er = false
 
 out.addEventListener('DOMSubtreeModified', () => {
     if(out.textContent === 'Error') {
-        let k = document.querySelector('.plus')
-        k.style.opacity = '0.3'
-        k = document.querySelector('.minus')
-        k.style.opacity = '0.3'
-        k = document.querySelector('.multiply')
-        k.style.opacity = '0.3'
-        k = document.querySelector('.division')
-        k.style.opacity = '0.3'
-        k = document.querySelector('.degree')
-        k.style.opacity = '0.3'
-        k = document.querySelector('.sqrt')
-        k.style.opacity = '0.3'
-        k = document.querySelector('.percent')
-        k.style.opacity = '0.3'
-        k = document.querySelector('.equal')
-        k.style.opacity = '0.3'
+        let buttons = document.getElementsByClassName('error')
+        for(let i = 0; i < buttons.length; i++) {
+            buttons[i].style.opacity = '0.3'
+        }
+        // let k = document.querySelector('.plus')
+        // k.style.opacity = '0.3'
+        // k = document.querySelector('.minus')
+        // k.style.opacity = '0.3'
+        // k = document.querySelector('.multiply')
+        // k.style.opacity = '0.3'
+        // k = document.querySelector('.division')
+        // k.style.opacity = '0.3'
+        // k = document.querySelector('.degree')
+        // k.style.opacity = '0.3'
+        // k = document.querySelector('.sqrt')
+        // k.style.opacity = '0.3'
+        // k = document.querySelector('.percent')
+        // k.style.opacity = '0.3'
+        // k = document.querySelector('.equal')
+        // k.style.opacity = '0.3'
         er = true
     }
     else
     if(er) {
-        let k = document.querySelector('.plus')
-        k.style.opacity = '1'
-        k = document.querySelector('.minus')
-        k.style.opacity = '1'
-        k = document.querySelector('.multiply')
-        k.style.opacity = '1'
-        k = document.querySelector('.division')
-        k.style.opacity = '1'
-        k = document.querySelector('.degree')
-        k.style.opacity = '1'
-        k = document.querySelector('.sqrt')
-        k.style.opacity = '1'
-        k = document.querySelector('.percent')
-        k.style.opacity = '1'
-        k = document.querySelector('.equal')
-        k.style.opacity = '1'
+        let buttons = document.getElementsByClassName('error')
+        for(let i = 0; i < buttons.length; i++) {
+            buttons[i].style.opacity = '1'
+        }
+        // let k = document.querySelector('.plus')
+        // k.style.opacity = '1'
+        // k = document.querySelector('.minus')
+        // k.style.opacity = '1'
+        // k = document.querySelector('.multiply')
+        // k.style.opacity = '1'
+        // k = document.querySelector('.division')
+        // k.style.opacity = '1'
+        // k = document.querySelector('.degree')
+        // k.style.opacity = '1'
+        // k = document.querySelector('.sqrt')
+        // k.style.opacity = '1'
+        // k = document.querySelector('.percent')
+        // k.style.opacity = '1'
+        // k = document.querySelector('.equal')
+        // k.style.opacity = '1'
         er = false
     }
 })
